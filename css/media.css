@@ -1,0 +1,114 @@
+@media screen and (max-width: 1210px) {
+	.menu__link {
+		margin-right: 10px;
+	}
+
+	.letters {
+		margin-right: 10px;
+	}
+
+	.smart, .design, .best, .wat {
+		display: block;
+		width: 285px;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 935px) {
+	.icons {
+		float: none;
+		margin: auto;
+	    width: 200px;
+    	margin-top: 20px;
+	}
+	
+	.menu {
+		display: none;
+		height: 270px;
+	}
+	
+	.menu__link {
+		float: none;
+	}
+
+	#touch-menu {
+		display: block;
+		padding-left: 50px;
+	}
+
+	.letters {
+		margin-right: 100px;
+	}
+	
+	.contacts {
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.contacts {
+		display: block;
+	}
+
+	.help_contact, .business, .categories,
+	.account {
+		width: 100%;
+        text-align: center;
+	    margin-bottom: 30px;
+	} 
+}
+
+@media screen and (max-width: 580px) {
+	.search {
+		padding-left: 10px;
+    	padding-right: 10px;
+	}
+
+	.news_1, .news_2 {
+		display: block;
+		margin: auto;
+	}
+
+	.smart, .design, .best {
+		margin-bottom: 25px;
+	}
+	
+	.card {
+		display: block;
+	    text-align: center;
+	    width: 370px;
+	    line-height: 1.6em;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.titles__text, .bench__text {
+		width: 80%;
+        text-align: center;
+    	line-height: 1.6em;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.fa-bars {
+		margin-left: 20px;
+	}
+
+	.letters {
+		margin-right: 20px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.card {
+		width: 270px;
+	}
+
+	.latest__news {
+		margin-left: -25px;
+	}
+
+	.heading img {
+		margin-left: 15px;
+	}
+}
